@@ -1,23 +1,6 @@
-> **Este projeto agora é mantido pelo @PagSeguro, o repositório foi transferido para o user @Japle que é o responsável pelas libs e integrações no PagSeguro**. -- @rochacbruno
-
-python-pagseguro
-================
-[![Build
-Status](https://travis-ci.org/rochacbruno/python-pagseguro.png)](https://travis-ci.org/rochacbruno/python-pagseguro)
-[![Coverage
-Status](https://coveralls.io/repos/rochacbruno/python-pagseguro/badge.png)](https://coveralls.io/r/rochacbruno/python-pagseguro)
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/python-pagseguro/Lobby)
-
-<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=rochacbruno%40gmail%2ecom&amp;lc=BR&amp;item_name=pythonpagseguro&amp;no_note=0&amp;currency_code=BRL&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest"><img alt='Donate with Paypal' src='http://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif' /></a>
+> **Este projeto é um fork do projeto original que é mantido pelo @PagSeguro (@Japple). \n Este projeto apenas contém implementaçõaes extras como por exemplo a criação de planos de recorrência e outros**. 
 
 Integração com a API v2 de pagamentos e notificações do Pagseguro utilizando requests.
-
-Contribuidores
-==============
-
-[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/0)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/0)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/1)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/1)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/2)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/2)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/3)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/3)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/4)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/4)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/5)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/5)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/6)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/6)[![](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/images/7)](https://sourcerer.io/fame/rochacbruno/rochacbruno/python-pagseguro/links/7)
-
-Faça parte! mande um Pull Request!
 
 Instalando
 ==========================
@@ -29,13 +12,13 @@ ou
 
 
 ```bash
-pip install -e git+https://github.com/rochacbruno/python-pagseguro#egg=pagseguro
+pip install -e git+https://github.com/fabriciomsdev/python-pagseguro#egg=pagseguro
 ```
 
 ou
 
 ```
-git clone https://github.com/rochacbruno/python-pagseguro
+git clone https://github.com/fabriciomsdev/python-pagseguro
 cd python-pagseguro
 pip install -r requirements.txt
 python setup.py install
